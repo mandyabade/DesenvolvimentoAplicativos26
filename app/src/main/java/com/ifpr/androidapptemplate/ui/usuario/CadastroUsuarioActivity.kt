@@ -21,7 +21,6 @@ class CadastroUsuarioActivity  : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_cadastro_usuario)
 
-        textCadastroUsuarioTitle = findViewById(R.id.textCadastroUsuarioTitle)
         registerNameEditText = findViewById(R.id.registerNameEditText)
         registerEmailEditText = findViewById(R.id.registerEmailEditText)
         registerPasswordEditText = findViewById(R.id.registerPasswordEditText)

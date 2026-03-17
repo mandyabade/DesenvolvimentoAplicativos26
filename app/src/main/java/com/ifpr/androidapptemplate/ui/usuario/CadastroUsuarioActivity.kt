@@ -28,11 +28,10 @@ class CadastroUsuarioActivity  : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_cadastro_usuario)
-        
+
         // Inicializa o Firebase Auth
         auth = FirebaseAuth.getInstance()
 
-        textCadastroUsuarioTitle = findViewById(R.id.textCadastroUsuarioTitle)
         registerNameEditText = findViewById(R.id.registerNameEditText)
         registerEmailEditText = findViewById(R.id.registerEmailEditText)
         registerPasswordEditText = findViewById(R.id.registerPasswordEditText)
